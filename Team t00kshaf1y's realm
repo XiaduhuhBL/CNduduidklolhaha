@@ -3,7 +3,7 @@
 	RequestCommand:InvokeServer(";btools me")
 	RequestCommand:InvokeServer(";punish all")
     RequestCommand:InvokeServer(";sm Team T00kshaf1y join today!")
-    RequestCommand:InvokeServer(";sm T00kshaf1y is here")
+    RequestCommand:InvokeServer(";sh T00kshaf1y is here")
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local backpack = player.Backpack
