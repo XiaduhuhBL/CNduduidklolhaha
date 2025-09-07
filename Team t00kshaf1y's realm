@@ -4,6 +4,7 @@
     RequestCommand:InvokeServer(";fogcolor cyan")
 	wait(0.4)
 	RequestCommand:InvokeServer(";punish all")
+    RequestCommand:InvokeServer(";hg Welcome to Team t00kshaf1y's realm")
 	wait(0.1)
 	local player = game.Players.LocalPlayer
 	local char = player.Character
@@ -340,6 +341,10 @@
 	RequestCommand:InvokeServer(";res all")
 	wait(0.3)
 	RequestCommand:InvokeServer(";r6 all")
-	RequestCommand:InvokeServer(";time 23")
+    RequestCommand:InvokeServer(";fog")
+    RequestCommand:InvokeServer(";disco")
+    RequestCommand:InvokeServer(";fire all")
+    RequestCommand:InvokeServer(";title me t00kshaf1y")
+	RequestCommand:InvokeServer(";time 14")
 	wait(0.7)
-	RequestCommand:InvokeServer(";music 1847661821 ;volume inf  ;savemap ;pitch 1.2")
+	RequestCommand:InvokeServer(";music 1847661821 ;volume inf  ;savemap ;pitch 1.1")
