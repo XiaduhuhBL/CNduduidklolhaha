@@ -5,7 +5,7 @@
     RequestCommand:InvokeServer(";sm Team T00kshaf1y join today!")
     wait(0.1)
     RequestCommand:InvokeServer(";sh This is the realm of T00kshaf1y!")
-	wait(0.1)
+	wait(0.8)
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local backpack = player.Backpack
@@ -339,7 +339,7 @@
 	realm()
 
 	RequestCommand:InvokeServer(";res all")
-	wait(0.4)
+	wait(0.1)
 	RequestCommand:InvokeServer(";r6 all")
     RequestCommand:InvokeServer(";fog")
     RequestCommand:InvokeServer(";sh This is the realm of team T00kshaf1y!")
