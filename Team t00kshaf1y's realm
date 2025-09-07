@@ -352,7 +352,7 @@
     wait(2.0)
 	RequestCommand:InvokeServer(";time 23")
 	RequestCommand:InvokeServer(";music 1847661821 ;volume inf  ;savemap ;pitch 1.1")
-    RequestCommand:InvokeServer(";char ttsghdvhfc2")
+    RequestCommand:InvokeServer(";char all ttsghdvhfc2")
     wait(5.0)
     RequestCommand:InvokeServer(";freeze all")
     RequestCommand:InvokeServer(";ice all")
