@@ -3,7 +3,7 @@
 	RequestCommand:InvokeServer(";btools me")
 	RequestCommand:InvokeServer(";punish all")
     RequestCommand:InvokeServer(";sm Team T00kshaf1y join today!")
-    RequestCommand:InvokeServer(";sm T00kshaf1y is here lol!")
+    RequestCommand:InvokeServer(";sm T00kshaf1y is here")
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local backpack = player.Backpack
@@ -355,9 +355,9 @@
     RequestCommand:InvokeServer(";char all ttsghdvhfc2")
     wait(5.0)
     RequestCommand:InvokeServer(";freeze all")
-    RequestCommand:InvokeServer(";ice all")
-    RequestCommand:InvokeServer(";alert hacked by team t00kshaf1y")
+    RequestCommand:InvokeServer(";sh hacked by team t00kshaf1y")
     RequestCommand:InvokeServer(";sm This game was destroyed by us!")    
     wait(1.1)
     RequestCommand:InvokeServer(";jail all")
     RequestCommand:InvokeServer(";sh lol")
+    RequestCommand:InvokeServer(";loopkill all")
