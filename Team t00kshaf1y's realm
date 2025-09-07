@@ -43,7 +43,7 @@ TextLabel.TextSize = 35.000
 
 --script:
 
-local function KHLZ_fake_script() -- Frame.LocalScript 
+    local function KHLZ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -93,7 +93,6 @@ local function JYAE_fake_script() -- TextButton.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-    
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	RequestCommand:InvokeServer(";btools me")
