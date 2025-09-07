@@ -275,7 +275,7 @@
 		lock(spawna, true)
 
 		createdecal(spawna, Enum.NormalId.Top)
-		setdecal(spawna, "111891702759441", Enum.NormalId.Top) -- ganti decalnya pake decal lu
+		setdecal(spawna, "123452321164348", Enum.NormalId.Top) -- ganti decalnya pake decal lu
 		transparency(spawna, 1)
 
 		local pos = CFrame.new(74.143, 24, -25.232)
@@ -285,7 +285,7 @@
 		transparency(rules, 0)
 		setcollision(rules, false)
 		createdecal(rules, Enum.NormalId.Left)
-		setdecal(rules, "96622965544848", Enum.NormalId.Left)
+		setdecal(rules, "123452321164348", Enum.NormalId.Left)
 		color(rules, Color3.new(1, 1, 1))
 		resize(rules, Vector3.new(4, 23, 37), pos)
 
