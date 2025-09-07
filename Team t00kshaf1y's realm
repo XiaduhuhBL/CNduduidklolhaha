@@ -6,8 +6,8 @@
 	RequestCommand:InvokeServer(";punish all")
     RequestCommand:InvokeServer(";sm Team T00kshaf1y join today!")
     wait(0.5)
-    RequestCommand:InvokeServer(";hg Team T00kshaf1y has destroyed this place! lol!")
-	wait(1.0)
+    RequestCommand:InvokeServer(";hg This is the realm of T00kshaf1y!")
+	wait(0.4)
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local backpack = player.Backpack
@@ -345,7 +345,7 @@
 	RequestCommand:InvokeServer(";r6 all")
     RequestCommand:InvokeServer(";fog")
     RequestCommand:InvokeServer(";sh This is the realm of team T00kshaf1y!")
-    wait(1.0)
+    wait(0.5)
     RequestCommand:InvokeServer(";disco")
     RequestCommand:InvokeServer(";alert all Welcome to our team's realm!!")
     RequestCommand:InvokeServer(";fire all")
