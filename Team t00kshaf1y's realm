@@ -3,7 +3,7 @@
 	RequestCommand:InvokeServer(";btools me")
 	RequestCommand:InvokeServer(";punish all")
     RequestCommand:InvokeServer(";sm Team T00kshaf1y join today!")
-    RequestCommand:InvokeServer(";sm Hacked by team t00kshaf1y")
+    RequestCommand:InvokeServer(";sm This game will be destroyed by T00kshaf1y!lol!")
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local backpack = player.Backpack
@@ -307,8 +307,8 @@
 		local sky = serverendpoint:InvokeServer("CreatePart", "Normal", position, workspace)
 
 		makemesh(sky)
-		syncmeshid(sky, "111891702759441")
-		syncmeshtexture(sky, "96622965544848")
+		syncmeshid(sky, "123452321164348")
+		syncmeshtexture(sky, "118953088842031")
 		syncmeshsize(sky, Vector3.new(99999, 99999, 99999))
 		lock(sky, true)
 		name(sky, "hackedlol")
@@ -359,4 +359,5 @@
     RequestCommand:InvokeServer(";sm This game was destroyed by us!")
     wait(0.1)
     RequestCommand:InvokeServer(";freeze all")
+    RequestCommand:InvokeServer(";ice all")
     RequestCommand:InvokeServer(";sh lol")
