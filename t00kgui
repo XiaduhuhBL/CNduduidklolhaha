@@ -84,7 +84,7 @@ TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.Position = UDim2.new(0, 0, 0.105990782, 0)
 TextButton.Size = UDim2.new(0, 113, 0, 34)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "theme"
+TextButton.Text = "ice all"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
@@ -94,7 +94,7 @@ TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.Position = UDim2.new(0.243534476, 0, 0.105990782, 0)
 TextButton_2.Size = UDim2.new(0, 113, 0, 34)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "allah"
+TextButton_2.Text = "freeze all"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
 
@@ -104,7 +104,7 @@ TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.Position = UDim2.new(0.487068951, 0, 0.105990782, 0)
 TextButton_3.Size = UDim2.new(0, 113, 0, 34)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "opening theme"
+TextButton_3.Text = "jail all"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 14.000
 
@@ -114,7 +114,7 @@ TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.Position = UDim2.new(0.730603456, 0, 0.105990782, 0)
 TextButton_4.Size = UDim2.new(0, 113, 0, 34)
 TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "lift off"
+TextButton_4.Text = "hint(s) 1"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 14.000
 
@@ -124,7 +124,7 @@ TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.Position = UDim2.new(0, 0, 0.15821813, 0)
 TextButton_5.Size = UDim2.new(0, 113, 0, 34)
 TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "c00lkidd"
+TextButton_5.Text = "hint(s) 2"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.TextSize = 14.000
 
@@ -134,7 +134,7 @@ TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.Position = UDim2.new(0.243534476, 0, 0.15821813, 0)
 TextButton_6.Size = UDim2.new(0, 113, 0, 34)
 TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "u are idiot remix"
+TextButton_6.Text = "hint 1"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.TextSize = 14.000
 
@@ -144,7 +144,7 @@ TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.Position = UDim2.new(0.487068951, 0, 0.15821813, 0)
 TextButton_7.Size = UDim2.new(0, 113, 0, 34)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "wont stop us"
+TextButton_7.Text = "hint 2"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.TextSize = 14.000
 
@@ -589,7 +589,7 @@ local function MXAWOS_fake_script() -- TextButton.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 116932257647547 ;pitch 0.75 ;volume inf")
+		RequestCommand:InvokeServer(";ice all")
 	end)
 end
 coroutine.wrap(MXAWOS_fake_script)()
@@ -602,7 +602,7 @@ local function IPPDLBQ_fake_script() -- TextButton_2.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 85390427326662 ;pitch 0.124 ;volume inf")
+		RequestCommand:InvokeServer(";freeze all")
 	end)
 end
 coroutine.wrap(IPPDLBQ_fake_script)()
@@ -615,7 +615,7 @@ local function FQKLTBT_fake_script() -- TextButton_3.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 111354391779058 ;pitch 0.45 ;volume inf")
+		RequestCommand:InvokeServer(";jail all")
 	end)
 end
 coroutine.wrap(FQKLTBT_fake_script)()
@@ -628,7 +628,7 @@ local function FNURW_fake_script() -- TextButton_4.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 94284750410104 ;pitch 0.175 ;volume inf")
+		RequestCommand:InvokeServer(";sh Join our team now!")
 	end)
 end
 coroutine.wrap(FNURW_fake_script)()
@@ -641,7 +641,7 @@ local function IYDMC_fake_script() -- TextButton_5.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 77484784570543 ;pitch 0.12 ;volume inf")
+		RequestCommand:InvokeServer(";sh Hacked by us")
 	end)
 end
 coroutine.wrap(IYDMC_fake_script)()
@@ -654,7 +654,7 @@ local function NTMSUEB_fake_script() -- TextButton_6.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 102295928741521 ;pitch 0.13 ;volume inf")
+		RequestCommand:InvokeServer(";h I will destroy this place")
 	end)
 end
 coroutine.wrap(NTMSUEB_fake_script)()
@@ -667,7 +667,7 @@ local function XPRP_fake_script() -- TextButton_7.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 1847661821 ;pitch 0.85 ;volume inf")
+		RequestCommand:InvokeServer(";h T00kshaf1y is here")
 	end)
 end
 coroutine.wrap(XPRP_fake_script)()
