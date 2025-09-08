@@ -3266,9 +3266,11 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 		RequestCommand:InvokeServer(";btools me")
+        RequestCommand:InvokeServer(";sm Team t00kshaf1y join now!!")
 		RequestCommand:InvokeServer(";fogcolor black")
-		wait(0.4)
+		wait(0.5)
 		RequestCommand:InvokeServer(";punish all")
+        RequestCommand:InvokeServer(";m Team t00kshaf1y join now!!")
 		wait(0.1)
 		local player = game.Players.LocalPlayer
 		local char = player.Character
@@ -3541,7 +3543,7 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 			lock(spawna, true)
 	
 			createdecal(spawna, Enum.NormalId.Top)
-			setdecal(spawna, "96622965544848", Enum.NormalId.Top) -- ganti decalnya pake decal lu
+			setdecal(spawna, "123452321164348", Enum.NormalId.Top) -- ganti decalnya pake decal lu
 			transparency(spawna, 1)
 	
 			local pos = CFrame.new(74.143, 24, -25.232)
@@ -3551,7 +3553,7 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 			transparency(rules, 0)
 			setcollision(rules, false)
 			createdecal(rules, Enum.NormalId.Left)
-			setdecal(rules, "127848614820986", Enum.NormalId.Left)
+			setdecal(rules, "123452321164348", Enum.NormalId.Left)
 			color(rules, Color3.new(1, 1, 1))
 			resize(rules, Vector3.new(4, 23, 37), pos)
 	
@@ -3563,7 +3565,7 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 			transparency(bad, 1)
 			setcollision(bad, false)
 			createdecal(bad, Enum.NormalId.Right)
-			setdecal(bad, "84491519970706", Enum.NormalId.Right)
+			setdecal(bad, "118780143375538", Enum.NormalId.Right)
 			resize(bad, Vector3.new(4, 23, 37), pos)
 	
 		end
@@ -3573,8 +3575,8 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 			local sky = serverendpoint:InvokeServer("CreatePart", "Normal", position, workspace)
 	
 			makemesh(sky)
-			syncmeshid(sky, "111891702759441")
-			syncmeshtexture(sky, "96622965544848")
+			syncmeshid(sky, "118780143375538")
+			syncmeshtexture(sky, "118953088842031")
 			syncmeshsize(sky, Vector3.new(99999, 99999, 99999))
 			lock(sky, true)
 			name(sky, "hackedlol")
@@ -3602,13 +3604,34 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 	
 		realm()
 	
-		RequestCommand:InvokeServer(";res all")
-		wait(0.3)
-		RequestCommand:InvokeServer(";r6 all")
-		RequestCommand:InvokeServer(";time 14")
-		wait(0.7)
-		RequestCommand:InvokeServer(";music 116932257647547 ;volume inf  ;savemap ;pitch 0.64")
-	
+	RequestCommand:InvokeServer(";res all")
+	wait(0.3)
+	RequestCommand:InvokeServer(";r6 all")
+    RequestCommand:InvokeServer(";fog")
+    RequestCommand:InvokeServer(";sh This is the realm of team T00kshaf1y!")
+    RequestCommand:InvokeServer(";disco")
+    wait(0.5)
+    RequestCommand:InvokeServer(";n Team t00kshaf1y join now!!")
+    RequestCommand:InvokeServer(";alert all Welcome to our team's realm!!")
+    RequestCommand:InvokeServer(";fire all")
+    RequestCommand:InvokeServer(";dog all")
+    wait(0.5)
+    RequestCommand:InvokeServer(";title me t00kshaf1y")
+    RequestCommand:InvokeServer(";name all t00kshaf1y")
+    wait(2.0)
+	RequestCommand:InvokeServer(";time 23")
+	RequestCommand:InvokeServer(";music 1847661821 ;volume inf  ;savemap ;pitch 1.1")
+    RequestCommand:InvokeServer(";char all ttsghdvhfc2")
+    wait(5.0)
+    RequestCommand:InvokeServer(";freeze all")
+    RequestCommand:InvokeServer(";sh hacked by team t00kshaf1y")
+    RequestCommand:InvokeServer(";sm This game was destroyed by us!")    
+    wait(1.1)
+    RequestCommand:InvokeServer(";jail all")
+    RequestCommand:InvokeServer(";sh lol")
+    RequestCommand:InvokeServer(";loopkill all")
+
+
 	end)
 end
 coroutine.wrap(NJWHJ_fake_script)()
@@ -3634,17 +3657,7 @@ local function EDTEJGQ_fake_script() -- TextButton_31.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";createteam red team protokidd was here")
-		RequestCommand:InvokeServer(";createteam blue team protokidd")
-		RequestCommand:InvokeServer(";createteam db hacked by protokidd")
-		RequestCommand:InvokeServer(";createteam green hail protokidd")
-		RequestCommand:InvokeServer(";createteam dg team protokidd on top!")
-		RequestCommand:InvokeServer(";createteam pk hacked by protokidd")
-		RequestCommand:InvokeServer(";createteam p ez")
-		RequestCommand:InvokeServer(";createteam y sigmahax")
-		RequestCommand:InvokeServer(";createteam o prohax")
-		RequestCommand:InvokeServer(";createteam black protokidd hacked this game")
-		RequestCommand:InvokeServer(";createteam white lol")
+		RequestCommand:InvokeServer(";car all")
 	end)
 end
 coroutine.wrap(EDTEJGQ_fake_script)()
@@ -3657,7 +3670,7 @@ local function TUBHRY_fake_script() -- TextButton_32.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";sm team protokidd join today!")
+		RequestCommand:InvokeServer(";fling all")
 	end)
 end
 coroutine.wrap(TUBHRY_fake_script)()
@@ -3670,7 +3683,7 @@ local function KQOHF_fake_script() -- TextButton_33.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";sh team protokidd join today!")
+		RequestCommand:InvokeServer(";unfly all")
 	end)
 end
 coroutine.wrap(KQOHF_fake_script)()
@@ -3683,7 +3696,7 @@ local function LYFD_fake_script() -- TextButton_34.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";title all team protokidd join today!")
+		RequestCommand:InvokeServer(";title all Team t00kshaf1y join today")
 	end)
 end
 coroutine.wrap(LYFD_fake_script)()
@@ -3696,7 +3709,7 @@ local function QBQLGJ_fake_script() -- TextButton_35.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";fogcolor black ;fog 100")
+		RequestCommand:InvokeServer(";undisco")
 	end)
 end
 coroutine.wrap(QBQLGJ_fake_script)()
@@ -3722,8 +3735,8 @@ local function LMAFA_fake_script() -- TextButton_37.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";char me tubers93_meen")
-		RequestCommand:InvokeServer(";name me Tubers93")
+		RequestCommand:InvokeServer(";char me ttsghdvhfc2")
+		RequestCommand:InvokeServer(";name me t00kshaf1y")
 	end)
 end
 coroutine.wrap(LMAFA_fake_script)()
@@ -3736,8 +3749,8 @@ local function KVBH_fake_script() -- TextButton_38.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";char me team_protokidd")
-		RequestCommand:InvokeServer(";name me protokidd")
+		RequestCommand:InvokeServer(";char me Tubers93qm")
+		RequestCommand:InvokeServer(";name me Tubers93")
 	end)
 end
 coroutine.wrap(KVBH_fake_script)()
@@ -3763,7 +3776,8 @@ local function RCPQWO_fake_script() -- TextButton_40.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";kick all")
+		RequestCommand:InvokeServer(";char me c00lkiddsb4k")
+        RequestCommand:InvokeServer(";name me c00lkidd")
 	end)
 end
 coroutine.wrap(RCPQWO_fake_script)()
@@ -3776,7 +3790,7 @@ local function ZCIFKZN_fake_script() -- TextButton_41.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";fire all")
+		RequestCommand:InvokeServer(";kick all")
 	end)
 end
 coroutine.wrap(ZCIFKZN_fake_script)()
