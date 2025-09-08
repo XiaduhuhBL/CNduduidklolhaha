@@ -54,7 +54,7 @@ local TextButton_42 = Instance.new("TextButton")
 
 --Properties:
 
-protoguif3xv2.Name = "protogui f3x v2"
+protoguif3xv2.Name = "t00kshaf1y more function gui"
 protoguif3xv2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 protoguif3xv2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 protoguif3xv2.ResetOnSpawn = false
@@ -74,7 +74,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 464, 0, 47)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "protogui f3x v2"
+TextLabel.Text = "t00kshaf1y More functional GUI"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 35.000
 
