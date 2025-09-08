@@ -51,7 +51,7 @@ local TextButton_42 = Instance.new("TextButton")
 
 --Properties:
 
-tookmoregui = "t00kshaf1y more function gui(f3x)"
+tookmoregui.= "t00kshaf1y more function gui(f3x)"
 tookmoregui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 tookmoregui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 tookmoregui.ResetOnSpawn = false
