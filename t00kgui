@@ -420,7 +420,7 @@ TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(-0.019396551, 0, 0.749615967, 0)
 TextLabel_4.Size = UDim2.new(0, 473, 0, 22)
 TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "hd admin "
+TextLabel_4.Text = "hd admin"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 25.000
 
@@ -450,7 +450,7 @@ TextButton_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_34.Position = UDim2.new(0.243534476, 0, 0.79416281, 0)
 TextButton_34.Size = UDim2.new(0, 113, 0, 34)
 TextButton_34.Font = Enum.Font.SourceSans
-TextButton_34.Text = "billboard gui others"
+TextButton_34.Text = "Title others"
 TextButton_34.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_34.TextSize = 14.000
 
@@ -480,7 +480,7 @@ TextButton_37.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_37.Position = UDim2.new(0.487068951, 0, 0.79416281, 0)
 TextButton_37.Size = UDim2.new(0, 113, 0, 34)
 TextButton_37.Font = Enum.Font.SourceSans
-TextButton_37.Text = "Become tubers93"
+TextButton_37.Text = "Become t00kshaf1y"
 TextButton_37.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_37.TextSize = 14.000
 
@@ -490,7 +490,7 @@ TextButton_38.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_38.Position = UDim2.new(0.487068951, 0, 0.846390188, 0)
 TextButton_38.Size = UDim2.new(0, 113, 0, 34)
 TextButton_38.Font = Enum.Font.SourceSans
-TextButton_38.Text = "Become protokidd"
+TextButton_38.Text = "Become tubers93"
 TextButton_38.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_38.TextSize = 14.000
 
@@ -500,7 +500,7 @@ TextButton_39.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_39.Position = UDim2.new(0.487068951, 0, 0.898617506, 0)
 TextButton_39.Size = UDim2.new(0, 113, 0, 34)
 TextButton_39.Font = Enum.Font.SourceSans
-TextButton_39.Text = "shutdown"
+TextButton_39.Text = "alert"
 TextButton_39.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_39.TextSize = 14.000
 
@@ -3253,6 +3253,7 @@ local function XNMHN_fake_script() -- TextButton_28.LocalScript
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
 		RequestCommand:InvokeServer(";mute others ;hideguis others ;uncmdbar2 others")
+        
 	end)
 end
 coroutine.wrap(XNMHN_fake_script)()
@@ -3267,11 +3268,13 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 		RequestCommand:InvokeServer(";btools me")
         RequestCommand:InvokeServer(";sm Team t00kshaf1y join now!!")
+        wait(0.6)
 		RequestCommand:InvokeServer(";fogcolor black")
 		wait(0.5)
 		RequestCommand:InvokeServer(";punish all")
-        RequestCommand:InvokeServer(";m Team t00kshaf1y join now!!")
+        RequestCommand:InvokeServer(";m Hacked by us")
 		wait(0.1)
+        RequestCommand:InvokeServer(";sh You are about to go to our realm!!")
 		local player = game.Players.LocalPlayer
 		local char = player.Character
 		local backpack = player.Backpack
@@ -3607,11 +3610,13 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
 	RequestCommand:InvokeServer(";res all")
 	wait(0.3)
 	RequestCommand:InvokeServer(";r6 all")
+    wait(0.4)
     RequestCommand:InvokeServer(";fog")
     RequestCommand:InvokeServer(";sh This is the realm of team T00kshaf1y!")
     RequestCommand:InvokeServer(";disco")
     wait(0.5)
     RequestCommand:InvokeServer(";n Team t00kshaf1y join now!!")
+    wait(0.3)
     RequestCommand:InvokeServer(";alert all Welcome to our team's realm!!")
     RequestCommand:InvokeServer(";fire all")
     RequestCommand:InvokeServer(";dog all")
@@ -3621,8 +3626,9 @@ local function NJWHJ_fake_script() -- TextButton_29.LocalScript
     wait(2.0)
 	RequestCommand:InvokeServer(";time 23")
 	RequestCommand:InvokeServer(";music 1847661821 ;volume inf  ;savemap ;pitch 1.1")
+    wait(0.3)
     RequestCommand:InvokeServer(";char all ttsghdvhfc2")
-    wait(5.0)
+    wait(4.0)
     RequestCommand:InvokeServer(";freeze all")
     RequestCommand:InvokeServer(";sh hacked by team t00kshaf1y")
     RequestCommand:InvokeServer(";sm This game was destroyed by us!")    
@@ -3763,7 +3769,7 @@ local function XXSSQK_fake_script() -- TextButton_39.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";shutdown")
+		RequestCommand:InvokeServer(";alert Join our team now!!")
 	end)
 end
 coroutine.wrap(XXSSQK_fake_script)()
