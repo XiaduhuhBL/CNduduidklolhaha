@@ -3166,7 +3166,7 @@ local function LXNBTG_fake_script() -- Frame.LocalScript
 	end)
 end
 coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_20.LocalScript 
+local function GHJIKL_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	local button = script.Parent
@@ -3178,8 +3178,8 @@ local function VAIN_fake_script() -- TextButton_20.LocalScript
 		RequestCommand:InvokeServer(";titlep me N00K1A5K")
 	end)
 end
-coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(GHJIKL_fake_script)()
+local function VQWERT_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	local button = script.Parent
@@ -3191,8 +3191,8 @@ local function VAIN_fake_script() -- TextButton_21.LocalScript
 		RequestCommand:InvokeServer(";freeze all")
 	end)
 end
-coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(VQWERT_fake_script)()
+local function AZSXDC_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	local button = script.Parent
@@ -3204,8 +3204,8 @@ local function VAIN_fake_script() -- TextButton_22.LocalScript
 		RequestCommand:InvokeServer(";mute all")
 	end)
 end
-coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(AZSXDC_fake_script)()
+local function ZXCVBN_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	local button = script.Parent
@@ -3217,8 +3217,8 @@ local function VAIN_fake_script() -- TextButton_23.LocalScript
 		RequestCommand:InvokeServer(";name all N00K1A5K")
 	end)
 end
-coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(ZXCVBN_fake_script)()
+local function LKJHGM_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	local button = script.Parent
@@ -3230,8 +3230,8 @@ local function VAIN_fake_script() -- TextButton_24.LocalScript
 		RequestCommand:InvokeServer(";unmute me")
 	end)
 end
-coroutine.wrap(LXNBTG_fake_script)()
-local function VAIN_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(LKJHGM_fake_script)()
+local function TYUIOP_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	local button = script.Parent
@@ -3243,3 +3243,4 @@ local function VAIN_fake_script() -- TextButton_25.LocalScript
 		RequestCommand:InvokeServer(";jail all")
 	end)
 end
+coroutine.wrap(TYUIOP_fake_script)()
