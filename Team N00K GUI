@@ -272,7 +272,7 @@ TextButton_21.BorderSizePixel = 2
 TextButton_21.Position = UDim2.new(0.822320104, 0, 0.793893158, 0)
 TextButton_21.Size = UDim2.new(0, 112, 0, 50)
 TextButton_21.Font = Enum.Font.Gotham
-TextButton_21.Text = "title me"
+TextButton_21.Text = "jail all"
 TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.TextSize = 14.000
 
@@ -316,7 +316,7 @@ TextButton_25.BorderSizePixel = 2
 TextButton_25.Position = UDim2.new(0.0367107205, 0, 0.793893158, 0)
 TextButton_25.Size = UDim2.new(0, 112, 0, 50)
 TextButton_25.Font = Enum.Font.Gotham
-TextButton_25.Text = "jail all"
+TextButton_25.Text = "title me"
 TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.TextSize = 14.000
 
@@ -327,7 +327,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 574, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Team N00K1A5K F3X GUI"
+TextLabel.Text = "Team N00K1A5K F3X GUI(V1.0)"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 33.000
 
