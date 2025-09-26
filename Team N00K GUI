@@ -261,7 +261,7 @@ TextButton_20.BorderSizePixel = 2
 TextButton_20.Position = UDim2.new(0.0367107205, 0, 0.625954211, 0)
 TextButton_20.Size = UDim2.new(0, 112, 0, 50)
 TextButton_20.Font = Enum.Font.Gotham
-TextButton_20.Text = "empty"
+TextButton_20.Text = "freeze all"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.TextSize = 14.000
 
@@ -272,7 +272,7 @@ TextButton_21.BorderSizePixel = 2
 TextButton_21.Position = UDim2.new(0.822320104, 0, 0.793893158, 0)
 TextButton_21.Size = UDim2.new(0, 112, 0, 50)
 TextButton_21.Font = Enum.Font.Gotham
-TextButton_21.Text = "empty"
+TextButton_21.Text = "title me"
 TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.TextSize = 14.000
 
@@ -283,7 +283,7 @@ TextButton_22.BorderSizePixel = 2
 TextButton_22.Position = UDim2.new(0.632892787, 0, 0.793893158, 0)
 TextButton_22.Size = UDim2.new(0, 112, 0, 50)
 TextButton_22.Font = Enum.Font.Gotham
-TextButton_22.Text = "empty"
+TextButton_22.Text = "mute all"
 TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.TextSize = 14.000
 
@@ -294,7 +294,7 @@ TextButton_23.BorderSizePixel = 2
 TextButton_23.Position = UDim2.new(0.441997051, 0, 0.793893158, 0)
 TextButton_23.Size = UDim2.new(0, 112, 0, 50)
 TextButton_23.Font = Enum.Font.Gotham
-TextButton_23.Text = "empty"
+TextButton_23.Text = "name all"
 TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.TextSize = 14.000
 
@@ -305,7 +305,7 @@ TextButton_24.BorderSizePixel = 2
 TextButton_24.Position = UDim2.new(0.239353895, 0, 0.793893158, 0)
 TextButton_24.Size = UDim2.new(0, 112, 0, 50)
 TextButton_24.Font = Enum.Font.Gotham
-TextButton_24.Text = "empty"
+TextButton_24.Text = "unmute(uself)"
 TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.TextSize = 14.000
 
@@ -316,7 +316,7 @@ TextButton_25.BorderSizePixel = 2
 TextButton_25.Position = UDim2.new(0.0367107205, 0, 0.793893158, 0)
 TextButton_25.Size = UDim2.new(0, 112, 0, 50)
 TextButton_25.Font = Enum.Font.Gotham
-TextButton_25.Text = "empty"
+TextButton_25.Text = "jail all"
 TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.TextSize = 14.000
 
@@ -327,7 +327,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 574, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "SIMPLE F3X EXPLOIT BY FLUMSEY AND PROTOKIDD"
+TextLabel.Text = "Team N00K1A5K F3X GUI"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 33.000
 
@@ -3166,3 +3166,80 @@ local function LXNBTG_fake_script() -- Frame.LocalScript
 	end)
 end
 coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";titlep me N00K1A5K")
+	end)
+end
+coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";freeze all")
+	end)
+end
+coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";mute all")
+	end)
+end
+coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";name all N00K1A5K")
+	end)
+end
+coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";unmute me")
+	end)
+end
+coroutine.wrap(LXNBTG_fake_script)()
+local function VAIN_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+	
+		RequestCommand:InvokeServer(";jail all")
+	end)
+end
