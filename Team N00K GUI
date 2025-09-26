@@ -261,7 +261,7 @@ TextButton_20.BorderSizePixel = 2
 TextButton_20.Position = UDim2.new(0.0367107205, 0, 0.625954211, 0)
 TextButton_20.Size = UDim2.new(0, 112, 0, 50)
 TextButton_20.Font = Enum.Font.Gotham
-TextButton_20.Text = "freeze all"
+TextButton_20.Text = "title me"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.TextSize = 14.000
 
@@ -316,7 +316,7 @@ TextButton_25.BorderSizePixel = 2
 TextButton_25.Position = UDim2.new(0.0367107205, 0, 0.793893158, 0)
 TextButton_25.Size = UDim2.new(0, 112, 0, 50)
 TextButton_25.Font = Enum.Font.Gotham
-TextButton_25.Text = "title me"
+TextButton_25.Text = "freeze all"
 TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.TextSize = 14.000
 
